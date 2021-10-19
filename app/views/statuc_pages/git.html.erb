@@ -1,13 +1,28 @@
 <h1>Git</h1>
-<p> Inicialización de un repositorio de git nuevo en una aplicación existente</p>
-<p> Creación de un branch nuevo</p>
-<p> Realizar un commit incluyendo todos los cambios actuales</p>
-<p> Cómo enviar el código al repositorio remoto</p>
-<p> Cómo configurar el origen del repositorio remoto para evitar escribirlo
+<br>
+<br><p> Inicialización de un repositorio de git nuevo en una aplicación existente</p>
+<p> Rta. git init para inicializar un repositorio </p>
+<br><p> Creación de un branch nuevo</p>
+<p> Rta. git checkout -b nombredelanuevarama</p>
+<br><p> Realizar un commit incluyendo todos los cambios actuales</p>
+<p> Rta. git commit -am "descripcion"</p>
+<p> git add -A</p>
+<br><p> Cómo enviar el código al repositorio remoto</p>
+<p> Rta. con el comando git push -u origin master </p>
+<br><p> Cómo configurar el origen del repositorio remoto para evitar escribirlo
 siempre cada vez que se hace un push o un pull</p>
-<p> Diferencia entre un reset y revert</p>
-<p> Además de cambiar de ramas, para qué más se puede utilizar el comando git
+<p> Rta. Cuando se hace el push origin agregarle un -u que vinculara a la rama actual </p>
+<br><p> Diferencia entre un reset y revert</p>
+<p> Rta. Resets revertir commits que no se han subido al master </p>
+<p> Revert revertir commits que se han subido al master </p>
+<br><p> Además de cambiar de ramas, para qué más se puede utilizar el comando git
 checkou</p>
-<p> Como puede ver los commits que se han realizado en el proyecto</p>
-<p> He modificado dos archivos y quiero hacer un commit por cada uno de ellos,
+<p> Rta. Se puede utilizar para cambiar las versiones del proyecto  </p>
+<br><p> Como puede ver los commits que se han realizado en el proyecto</p>
+<p> Rta. con el comando git log </p>
+<br><p> He modificado dos archivos y quiero hacer un commit por cada uno de ellos,
 cómo lo puedo hacer?</p>
+<p> Rta. Con el comando git add nombrearchivo y luego un git commit se subira para cada archivo </p>
+<br>
+<p>Aqui encuentras las paginas del proyecto </p>
+<%= link_to 'Home', :action => :home %>
