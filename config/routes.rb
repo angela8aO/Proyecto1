@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   
-
+  root 'statuc_pages#home'
   get 'statuc_pages/home'
   get 'statuc_pages/basics'
   get 'statuc_pages/ruby'
